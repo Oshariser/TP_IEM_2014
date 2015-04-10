@@ -186,7 +186,7 @@ $('.deroulant').click( function(e) {
     $(this).parent().toggleClass('tap');
 });
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 1000px) {
     ul.menuDeroulant {  height: auto; }
     ul.menuDeroulant > li {  float: none; width: 100%; }
     ul.menuDeroulant a { line-height: 40px; }
